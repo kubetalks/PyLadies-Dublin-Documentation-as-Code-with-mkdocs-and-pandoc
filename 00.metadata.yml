@@ -1,0 +1,36 @@
+---
+title: "Documentation as Code"
+subtitle: "mkdocs and pandoc"
+author:
+- "Mihai Criveti, CTO & STSM, RHCA, IBM"
+date: \today
+
+abstract: |
+  Documetnation as code.
+keywords: mkdocs, pandoc
+description: |
+  Documentation as code
+subject: Documentation as code
+category: presentation
+lang: en-US
+
+output: beamer_presentation
+aspectratio: "169"
+toc: true
+slide_level: 2
+incremental: false # Incremental bullets
+classoption: "aspectratio=169"
+dpi: 300
+
+theme: "metropolis"
+colortheme: "owl"
+sansfont: IBM Plex Sans
+monofont: IBM Plex Mono
+mainfont: IBM Plex Sans
+fontsize: 8pt
+highlight: tango
+
+logo: ./template/logo.png
+titlegraphic: ./template/frontpage.png
+section-titles: true
+---

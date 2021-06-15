@@ -8,8 +8,8 @@ site_description: Description
 site_author: Mihai Criveti
 
 # Repository Information
-repo_name: ''
-repo_url: ''
+repo_name: 'kubetalks/PyLadies-Dublin-Documentation-as-Code-with-mkdocs-and-pandoc'
+repo_url: 'https://github.com/kubetalks/PyLadies-Dublin-Documentation-as-Code-with-mkdocs-and-pandoc'
 edit_uri: 'edit/master/docs'
 docs_dir: 'docs'
 site_dir: 'site'

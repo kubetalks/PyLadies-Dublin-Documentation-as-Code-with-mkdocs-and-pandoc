@@ -1,0 +1,16 @@
+# Builds documentation
+# Mihai Criveti
+
+# Makefile variables
+export BUILDER=./build-docs
+export OUT_DIR=out/
+export TRANSFORMATION=pptx pdf
+
+#############################################################################
+# targets - add books here
+#############################################################################
+
+.PHONY: pandoc
+pandoc:
+	[[ -d $(OUT_DIR) ]] || mkdir -p $(OUT_DIR)
+	$(BUILDER) docs/

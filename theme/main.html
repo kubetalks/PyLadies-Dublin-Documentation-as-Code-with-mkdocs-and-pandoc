@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block footer %}
+    {% include "partials/footer.html" %}
+    {% if page.meta.revision_date %}
+        Updated {{ page.meta.revision_date }}
+    {% endif %}
+{% endblock %}
